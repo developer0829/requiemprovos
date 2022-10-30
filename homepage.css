@@ -11,21 +11,21 @@
 
 .fixed-bg{
     background-position: center;
-    background-size: 100%;
+    background-size: 700px;
     background-attachment: local;
     background-repeat: no-repeat;
+    position: relative;
+    top: 250px;
+    left: 500px;
     width: 700px;
     height: 400px;
     -webkit-animation: fadeinup 3s;
-    border-style: solid;
 }
 
 .text-bg{
     position: absolute;
-    top: 70%;
-    left: 43%;
-    animation-delay: 2s;
-    -webkit-animation: fadeinup 3s;
+    top: 85%;
+    left: 32%;
 }
 
 body{
