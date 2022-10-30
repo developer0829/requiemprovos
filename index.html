@@ -2,6 +2,7 @@
 <html>
     <head>
        <link rel="stylesheet" href="homepage.css">
+       <link rel="shortcut icon" href="homepage%20typo.png">
         <meta charset="utf-8">
         <title>Requiem pro Vos</title>
         <style>
@@ -11,11 +12,32 @@
             .fixed-bg{
                 background-image: url('homepage%20typo.png');
             }
+            .text-bg{
+    font-family: 'Pretendard-Regular';
+    @import url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff');
+    font-weight: 300;
+    font-style: normal;
+            }
+            @keyframes fadeinup {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 50%);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+            }
         </style>
     </head>
     <body>
         <div class="scroll-bg">
-            <div class="fixed-bg"></div>
+            <div class="fixed-bg">
+            <div class="text-bg">
+                본 홈페이지는 PC 열람에 최적화 되어 있습니다. 
+            </div>
+            </div>
         </div>
     </body>
 </html>
