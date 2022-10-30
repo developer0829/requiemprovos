@@ -11,7 +11,7 @@
 
 .fixed-bg{
     background-position: center;
-    background-size: 700px;
+    background-size: 100%;
     background-attachment: local;
     background-repeat: no-repeat;
     position: relative;
