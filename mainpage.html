@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="mainpage.css">
+       <link rel="shortcut icon" href="icon.png">
+       <meta charset="utf-8">
+        <title>Main | Requiem pro Vos</title>
+        <style>
+            .scroll-bg{
+                background-image: url('mainpage%20logo.png');
+            }
+            .member2{
+                opacity: 0;
+                transition: opacity 0.5s linear;
+            }
+            .member1:hover .member2{
+                opacity: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="scroll-bg">
+        <div class="icons">
+            <img class="typo" onclick="location.href='index.html';" style="cursor: pointer">
+            <img class="member1" style="cursor: pointer">
+            <img class="member2">
+            <img class="notice1">
+            <img class="notice2">
+            <img class="system1">
+            <img class="system2">
+            <img class="world1">
+            <img class="world2">
+        </div>
+           <div class="container">
+            <div class="slideshow">
+                <div class="slides">
+                    <img src="admission%20form.png">
+                    <img src="admission%20format.png">
+                    <img src="admission%20live.png">
+                </div>
+            </div>
+            <div>
+                <span class="dot" onclick="currentslide(1)"></span>
+                <span class="dot" onclick="currenslide(2)"></span>
+                <span class="dot" onclick="currentslide(3)"></span>
+            </div>
+            </div>
+        </div>
+        <script src="mainpage.js"></script>
+    </body>
+</html>
