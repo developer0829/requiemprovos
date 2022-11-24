@@ -91,41 +91,107 @@
     top: -1.7%;
     left: 30px;
 }
+.footer{
+    content: url('footer.PNG');
+    position: fixed;
+    size: 2000px;
+    width: 1048px;
+    height: 80.5px;
+    top: 92%;
+    left: 18%;
+}
 
+
+.twitter{
+    content: url('twitter%20frame.png');
+    position: absolute;
+    width: 466px;
+    height: 674px;
+    top: 85%;
+    left: 18.3%;
+}
+.timeline{
+    position: absolute;
+    top: 88%;
+    left: 21.46%;
+}
+
+.timer{
+    content: url('timer.png');
+    position: absolute;
+    width: 633.75px;
+    height: 147.03px;
+    top: 84%;
+    left: 43.7%;
+}
+
+.qna{
+    content: url('qna.png');
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: 105%;
+    left: 42%;
+}
+.dictionary{
+    content: url('market.png');
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: 105%;
+    left: 54%;
+}
+.market{
+    content: url('dictionary.png');
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: 105%;
+    left: 66%;
+}
+
+.youtube{
+    content: url('youtube.png');
+    position: absolute;
+    width: 600px;
+    height: 210px;
+    top: 133%;
+    left: 45%;
+}
 
 .slideframe{
     content: url('frame.png');
     position: absolute;
-    size: 970px;
-    width: 1070px;
+    size: 940px;
+    width: 1000px;
     top: 50%;
-    left: 17.7%;
+    left: 20%;
 }
 .container{
     position: absolute;
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
     top: 52%;
-    left: 19.5%;
+    left: 21.3%;    
 }
 .slideshow{
-    height: 270px;
-    width: 999px;
+    height: 261px;
+    width: 965.5px;
     overflow: hidden;
 }
 .slides{
     position: relative;
     display: flex;
-    height: 270px;
+    height: 261px;
 }
 
 .dot{
     position: relative;
     top: 40%;
-    left: 47%;
+    left: 49.8%;
      height: 10px;
   width: 10px;
-  margin: 0 2px;
+  margin: 0 4px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
